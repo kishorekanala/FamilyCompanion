@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 //TODO("Not yet implemented")
                 Log.d(TAG, "Adding new item")
 
-                val intent = Intent(this@MainActivity, GroceriesAddActivity::class.java)
+                val intent = Intent(this@MainActivity, GroceriesAddEditActivity::class.java)
                 startActivity(intent)
             }
         })
