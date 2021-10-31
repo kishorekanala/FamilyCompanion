@@ -13,7 +13,7 @@ class GroceriesAddEditActivity : AppCompatActivity() {
         setContentView(R.layout.activity_groceries_addedit)
 
         val btnOK: Button = findViewById<Button>(R.id.btn_Ok)
-        val btnCancel: Button = findViewById<Button>(R.id.btn_Cancel)
+
 
         btnOK.setOnClickListener(object: View.OnClickListener {
             override fun onClick(v: View?) {
@@ -25,6 +25,7 @@ class GroceriesAddEditActivity : AppCompatActivity() {
             }
         })
 
+        val btnCancel: Button = findViewById<Button>(R.id.btn_Cancel)
         btnCancel.setOnClickListener(object: View.OnClickListener {
             override fun onClick(v: View?) {
                 //TODO("Not yet implemented")
