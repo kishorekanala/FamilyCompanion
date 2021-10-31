@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Groceries</string>
+    <string name="addedit_grocery">Add/Edit Grocery</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="qty">Qty:</string>
+    <string name="rate">Rate:</string>
+    <string name="name">Name:</string>
+    <string name="brand">Brand:</string>
+    <string name="etname">Name</string>
 </resources>
