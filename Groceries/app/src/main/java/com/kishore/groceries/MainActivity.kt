@@ -7,7 +7,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 
-val TAG = "GRO"
+val TAG = "Gro App"
 
 class MainActivity : AppCompatActivity() {
 
